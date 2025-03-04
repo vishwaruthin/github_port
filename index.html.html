@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Vishwaruthin - Electrical and Electronics Engineer">
+    <title>Vishwaruthin - Electrical & Electronics Engineering Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Simple styles for the portfolio */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        section {
+            margin: 50px 0;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .skills, .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .skill, .project {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact input, .contact textarea {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Vishwaruthin - Electrical & Electronics Engineer</h1>
+    <p>Your trusted expert in electrical systems and electronics</p>
+</header>
+
+<div class="container">
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Vishwaruthin, an Electrical and Electronics Engineer passionate about designing and optimizing electrical systems. I specialize in circuit design, microcontroller programming, power systems, and automation technologies. My goal is to innovate and contribute to the advancement of engineering solutions that improve lives.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <h3>Circuit Design</h3>
+                <p>Proficient in analog and digital circuit design, using tools like LTspice and Eagle.</p>
+            </div>
+            <div class="skill">
+                <h3>Microcontroller Programming</h3>
+                <p>Experience with Arduino, PIC, and STM32 for various automation and control systems.</p>
+            </div>
+            <div class="skill">
+                <h3>Power Systems</h3>
+                <p>Knowledge of power generation, distribution, and renewable energy technologies.</p>
+            </div>
+            <div class="skill">
+                <h3>Automation</h3>
+                <p>Design and implement industrial automation systems using PLC and SCADA.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Smart Home Automation System</h3>
+                <p>Designed and developed a smart home system using IoT devices to control lighting and temperature remotely via a mobile app.</p>
+            </div>
+            <div class="project">
+                <h3>Solar-Powered Circuit</h3>
+                <p>Created an energy-efficient solar-powered system to charge batteries for off-grid power applications.</p>
+            </div>
+            <div class="project">
+                <h3>PLC-based Conveyor System</h3>
+                <p>Designed an industrial conveyor system with programmable logic controllers (PLCs) for automated material handling.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact">
+            <form action="mailto:vishwaruthin@example.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Vishwaruthin. All Rights Reserved.</p>
+    <p>Connect with me on <a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
+</footer>
+
+</body>
+</html>
